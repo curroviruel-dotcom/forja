@@ -1,0 +1,2354 @@
+{
+  "version": 5,
+  "_nota": "Biblioteca propia de Forja. Textos escritos desde cero. 'patron' lo usa el generador de rutinas; el orden dentro de cada patrón es la preferencia. Fotos: free-exercise-db (github.com/yuhonas/free-exercise-db), Unlicense / dominio público; img/ej/<id>-0.jpg (inicio) y -1.jpg (final).",
+  "ejercicios": [
+    {
+      "id": "press-banca-barra",
+      "nombre": "Press de banca con barra",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps",
+        "hombro_ant"
+      ],
+      "material": [
+        "barra",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Escápulas juntas y hacia abajo antes de descolgar la barra",
+        "Baja controlando hasta rozar el pecho, a la altura del esternón",
+        "Pies firmes en el suelo y empuja la barra un poco hacia atrás al subir"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-inclinado-mancuerna",
+      "nombre": "Press inclinado con mancuernas",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "hombro_ant",
+        "triceps"
+      ],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Banco entre 30 y 45 grados",
+        "Codos algo por debajo de los hombros, no abiertos del todo",
+        "Junta las mancuernas arriba sin chocarlas"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-suelo-mancuerna",
+      "nombre": "Press en el suelo con mancuernas",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Tumbado con las rodillas dobladas",
+        "Baja hasta que los brazos toquen el suelo y para un instante",
+        "Empuja sin despegar la espalda"
+      ],
+      "foto": true
+    },
+    {
+      "id": "flexiones",
+      "nombre": "Flexiones",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps",
+        "hombro_ant"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Cuerpo recto como una tabla, sin hundir la cadera",
+        "Manos algo más abiertas que los hombros",
+        "Si cuestan, apoya las manos en un banco o una mesa"
+      ],
+      "foto": true
+    },
+    {
+      "id": "aperturas-polea",
+      "nombre": "Aperturas en polea",
+      "patron": "pecho_aisl",
+      "musculo": "pecho",
+      "secundarios": [],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Codos ligeramente doblados y fijos",
+        "Abraza un árbol imaginario hasta juntar las manos",
+        "Vuelve despacio notando el estiramiento"
+      ],
+      "foto": true
+    },
+    {
+      "id": "fondos",
+      "nombre": "Fondos en paralelas",
+      "patron": "empuje_v_alt",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Inclina un poco el tronco hacia delante",
+        "Baja hasta que los hombros queden a la altura de los codos",
+        "Sin balanceo: si no salen, usa una banda"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-militar-barra",
+      "nombre": "Press militar de pie",
+      "patron": "empuje_v",
+      "musculo": "hombro_ant",
+      "secundarios": [
+        "triceps",
+        "hombro_lat"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Glúteos y abdomen apretados para no arquear la espalda",
+        "Saca la cabeza hacia atrás al pasar la barra",
+        "Termina con la barra encima de la nuca"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-hombro-mancuerna",
+      "nombre": "Press de hombros con mancuernas",
+      "patron": "empuje_v",
+      "musculo": "hombro_ant",
+      "secundarios": [
+        "triceps",
+        "hombro_lat"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Sentado o de pie, espalda neutra",
+        "Empieza con las mancuernas a la altura de las orejas",
+        "Sube en un ligero arco hasta casi juntarlas"
+      ],
+      "foto": true
+    },
+    {
+      "id": "flexion-pica",
+      "nombre": "Flexiones en pica",
+      "patron": "empuje_v",
+      "musculo": "hombro_ant",
+      "secundarios": [
+        "triceps"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Cadera alta formando una V invertida",
+        "Baja la cabeza hacia el suelo entre las manos",
+        "Cuanto más altos los pies, más difícil"
+      ]
+    },
+    {
+      "id": "elevaciones-laterales",
+      "nombre": "Elevaciones laterales",
+      "patron": "hombro_lat",
+      "musculo": "hombro_lat",
+      "secundarios": [],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Sube hasta la altura de los hombros, no más",
+        "Lidera con los codos, no con las manos",
+        "Peso ligero y sin impulso"
+      ],
+      "foto": true
+    },
+    {
+      "id": "pajaros-polea",
+      "nombre": "Pájaros en polea",
+      "patron": "hombro_post",
+      "musculo": "hombro_post",
+      "secundarios": [
+        "espalda_alta"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Cruza los cables y abre hacia fuera",
+        "Brazos casi rectos a la altura de los hombros",
+        "Aprieta atrás un segundo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "pajaros-mancuerna",
+      "nombre": "Pájaros con mancuernas",
+      "patron": "hombro_post",
+      "musculo": "hombro_post",
+      "secundarios": [
+        "espalda_alta"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Inclinado hacia delante con la espalda recta",
+        "Abre los brazos hacia los lados",
+        "Piensa en separar las manos, no en subirlas"
+      ],
+      "foto": true
+    },
+    {
+      "id": "dominadas",
+      "nombre": "Dominadas",
+      "patron": "tiron_v",
+      "musculo": "dorsal",
+      "secundarios": [
+        "biceps"
+      ],
+      "material": [
+        "barra_dominadas"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Empieza colgado con los brazos estirados",
+        "Lleva el pecho hacia la barra, no solo la barbilla",
+        "Si no sale ninguna, usa una banda o haz solo la bajada lenta"
+      ],
+      "foto": true
+    },
+    {
+      "id": "jalon-pecho",
+      "nombre": "Jalón al pecho",
+      "patron": "tiron_v",
+      "musculo": "dorsal",
+      "secundarios": [
+        "biceps"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Agarre algo más abierto que los hombros",
+        "Lleva la barra a la parte alta del pecho",
+        "Codos hacia abajo y hacia los costados"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-barra",
+      "nombre": "Remo con barra",
+      "patron": "tiron_h",
+      "musculo": "espalda_alta",
+      "secundarios": [
+        "dorsal",
+        "biceps"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Tronco inclinado unos 45 grados, espalda recta",
+        "Lleva la barra hacia el ombligo",
+        "Sin tirones con la espalda"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-mancuerna",
+      "nombre": "Remo con mancuerna a una mano",
+      "patron": "tiron_h",
+      "musculo": "dorsal",
+      "secundarios": [
+        "espalda_alta",
+        "biceps"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Apoya mano y rodilla en un banco o una silla",
+        "Lleva la mancuerna hacia la cadera",
+        "Codo pegado al cuerpo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-polea-baja",
+      "nombre": "Remo sentado en polea",
+      "patron": "tiron_h",
+      "musculo": "espalda_alta",
+      "secundarios": [
+        "dorsal",
+        "biceps"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Pecho alto y espalda quieta",
+        "Lleva el agarre al abdomen",
+        "Junta las escápulas al final"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-invertido",
+      "nombre": "Remo invertido bajo una mesa",
+      "patron": "tiron_h",
+      "musculo": "espalda_alta",
+      "secundarios": [
+        "dorsal",
+        "biceps"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Usa una mesa firme que no vuelque",
+        "Cuerpo recto de talones a cabeza",
+        "Lleva el pecho hacia el borde"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-barra",
+      "nombre": "Curl de bíceps con barra",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [
+        "antebrazo"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Codos quietos a los lados",
+        "Sube sin echar el cuerpo atrás",
+        "Baja del todo, despacio"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-martillo",
+      "nombre": "Curl martillo",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [
+        "antebrazo"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Palmas mirándose entre sí",
+        "Codos fijos",
+        "Alterna o sube las dos a la vez"
+      ],
+      "foto": true
+    },
+    {
+      "id": "extension-triceps-polea",
+      "nombre": "Extensión de tríceps en polea",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Codos pegados y quietos",
+        "Estira los brazos del todo abajo",
+        "Sube solo hasta que el antebrazo quede horizontal"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-frances",
+      "nombre": "Press francés con mancuernas",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Tumbado, brazos verticales",
+        "Dobla solo los codos y baja las mancuernas junto a la cabeza",
+        "Codos apuntando al techo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "fondos-banco",
+      "nombre": "Fondos en silla",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [
+        "pecho"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Manos en el borde de una silla estable",
+        "Baja hasta que los codos formen un ángulo recto",
+        "Cuanto más lejos los pies, más difícil"
+      ],
+      "foto": true
+    },
+    {
+      "id": "sentadilla-barra",
+      "nombre": "Sentadilla con barra",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo",
+        "aductores"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Barra sobre la parte alta de la espalda",
+        "Rodillas en la dirección de las puntas de los pies",
+        "Baja al menos hasta que el muslo quede paralelo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "prensa",
+      "nombre": "Prensa de piernas",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Zona lumbar pegada al respaldo",
+        "Baja hasta donde no se despegue la cadera",
+        "No bloquees las rodillas arriba"
+      ],
+      "foto": true
+    },
+    {
+      "id": "sentadilla-goblet",
+      "nombre": "Sentadilla goblet",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Mancuerna pegada al pecho, en vertical",
+        "Codos por dentro de las rodillas al bajar",
+        "Tronco erguido"
+      ],
+      "foto": true
+    },
+    {
+      "id": "sentadilla-bulgara",
+      "nombre": "Sentadilla búlgara",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Pie de atrás apoyado en una silla o un banco",
+        "Baja recto, la rodilla de atrás hacia el suelo",
+        "Haz las reps de una pierna y luego la otra"
+      ],
+      "foto": true
+    },
+    {
+      "id": "zancadas-mancuerna",
+      "nombre": "Zancadas con mancuernas",
+      "patron": "zancada",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Paso largo y tronco recto",
+        "La rodilla de atrás casi roza el suelo",
+        "Empuja con el talón de delante"
+      ],
+      "foto": true
+    },
+    {
+      "id": "extension-cuadriceps",
+      "nombre": "Extensión de cuádriceps",
+      "patron": "cuad_aisl",
+      "musculo": "cuadriceps",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Rodilla alineada con el eje de la máquina",
+        "Estira del todo y aguanta un segundo",
+        "Baja sin dejar caer el peso"
+      ],
+      "foto": true
+    },
+    {
+      "id": "peso-muerto-rumano",
+      "nombre": "Peso muerto rumano",
+      "patron": "bisagra",
+      "musculo": "isquios",
+      "secundarios": [
+        "gluteo",
+        "lumbar"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Rodillas un poco dobladas y fijas",
+        "Lleva la cadera atrás con la espalda recta",
+        "Barra pegada a las piernas todo el recorrido"
+      ],
+      "foto": true
+    },
+    {
+      "id": "peso-muerto-rumano-mancuerna",
+      "nombre": "Peso muerto rumano con mancuernas",
+      "patron": "bisagra",
+      "musculo": "isquios",
+      "secundarios": [
+        "gluteo",
+        "lumbar"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Mancuernas por delante de los muslos",
+        "Cadera atrás hasta notar el estiramiento",
+        "Sube apretando glúteos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "puente-gluteo-una-pierna",
+      "nombre": "Puente de glúteo a una pierna",
+      "patron": "bisagra",
+      "musculo": "gluteo",
+      "secundarios": [
+        "isquios"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Tumbado, un pie apoyado y la otra pierna arriba",
+        "Sube la cadera hasta alinearla con el tronco",
+        "Aguanta arriba un segundo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-femoral",
+      "nombre": "Curl femoral tumbado",
+      "patron": "isq_aisl",
+      "musculo": "isquios",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Cadera pegada al banco",
+        "Lleva los talones hacia los glúteos",
+        "Baja despacio"
+      ],
+      "foto": true
+    },
+    {
+      "id": "hip-thrust",
+      "nombre": "Empuje de cadera con barra",
+      "patron": "gluteo",
+      "musculo": "gluteo",
+      "secundarios": [
+        "isquios"
+      ],
+      "material": [
+        "barra",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Espalda alta apoyada en el banco",
+        "Barbilla hacia el pecho",
+        "Arriba, tronco y muslos en línea"
+      ],
+      "foto": true
+    },
+    {
+      "id": "elevacion-gemelos",
+      "nombre": "Elevación de gemelos de pie",
+      "patron": "gemelo",
+      "musculo": "gemelo",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Baja el talón todo lo posible",
+        "Sube a la punta y aguanta",
+        "Rodillas casi rectas"
+      ],
+      "foto": true
+    },
+    {
+      "id": "gemelo-una-pierna",
+      "nombre": "Elevación de gemelo a una pierna",
+      "patron": "gemelo",
+      "musculo": "gemelo",
+      "secundarios": [],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Pie sobre un escalón, el talón en el aire",
+        "Apóyate en la pared solo para el equilibrio",
+        "Recorrido completo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "plancha",
+      "nombre": "Plancha",
+      "patron": "core",
+      "musculo": "abdomen",
+      "secundarios": [
+        "oblicuos"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "tiempo",
+      "claves": [
+        "Codos bajo los hombros",
+        "Aprieta glúteos y abdomen",
+        "Cuerpo recto, sin subir la cadera"
+      ],
+      "foto": true
+    },
+    {
+      "id": "elevacion-piernas",
+      "nombre": "Elevación de piernas colgado",
+      "patron": "core",
+      "musculo": "abdomen",
+      "secundarios": [],
+      "material": [
+        "barra_dominadas"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Colgado sin balancearte",
+        "Sube las rodillas o las piernas rectas",
+        "Enrolla la pelvis al final"
+      ],
+      "foto": true
+    },
+    {
+      "id": "crunch-invertido",
+      "nombre": "Crunch invertido",
+      "patron": "core",
+      "musculo": "abdomen",
+      "secundarios": [],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Tumbado, rodillas dobladas a 90 grados",
+        "Despega la cadera del suelo llevando las rodillas al pecho",
+        "Baja sin dejar caer las piernas"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-banca-mancuerna",
+      "nombre": "Press de banca con mancuernas",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps",
+        "hombro_ant"
+      ],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Mancuernas a la altura del pecho, codos a unos 45 grados",
+        "Sube juntándolas sin chocarlas"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-inclinado-barra",
+      "nombre": "Press inclinado con barra",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "hombro_ant",
+        "triceps"
+      ],
+      "material": [
+        "barra",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Banco a unos 30 grados",
+        "Baja la barra a la parte alta del pecho"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-declinado-barra",
+      "nombre": "Press declinado con barra",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps"
+      ],
+      "material": [
+        "barra",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Piernas bien sujetas en el banco",
+        "Baja la barra a la parte baja del pecho"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-pecho-maquina",
+      "nombre": "Press de pecho en máquina",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps",
+        "hombro_ant"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Ajusta el asiento para que las asas queden a la altura del pecho",
+        "Espalda pegada al respaldo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-inclinado-maquina",
+      "nombre": "Press inclinado en máquina",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "hombro_ant",
+        "triceps"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Asas a la altura de la parte alta del pecho",
+        "Empuja sin despegar los hombros del respaldo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-banca-multipower",
+      "nombre": "Press de banca en multipower",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps",
+        "hombro_ant"
+      ],
+      "material": [
+        "multipower",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Coloca el banco para que la barra baje al esternón",
+        "Pon los seguros a la altura del pecho"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-inclinado-multipower",
+      "nombre": "Press inclinado en multipower",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "hombro_ant",
+        "triceps"
+      ],
+      "material": [
+        "multipower",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Banco a 30 grados bajo la barra",
+        "La barra baja a la parte alta del pecho"
+      ],
+      "foto": true
+    },
+    {
+      "id": "aperturas-mancuerna",
+      "nombre": "Aperturas con mancuernas",
+      "patron": "pecho_aisl",
+      "musculo": "pecho",
+      "secundarios": [],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Codos un poco doblados y fijos",
+        "Baja hasta notar el estiramiento, sin pasarte"
+      ],
+      "foto": true
+    },
+    {
+      "id": "aperturas-inclinadas-mancuerna",
+      "nombre": "Aperturas inclinadas con mancuernas",
+      "patron": "pecho_aisl",
+      "musculo": "pecho",
+      "secundarios": [
+        "hombro_ant"
+      ],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Banco a 30 grados",
+        "Abre en arco y vuelve apretando el pecho"
+      ],
+      "foto": true
+    },
+    {
+      "id": "contractora-pecho",
+      "nombre": "Aperturas en máquina (contractora)",
+      "patron": "pecho_aisl",
+      "musculo": "pecho",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Asas a la altura del pecho",
+        "Junta las manos delante y vuelve despacio"
+      ],
+      "foto": true
+    },
+    {
+      "id": "cruce-poleas-bajas",
+      "nombre": "Cruce de poleas de abajo arriba",
+      "patron": "pecho_aisl",
+      "musculo": "pecho",
+      "secundarios": [
+        "hombro_ant"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Poleas abajo, sube las manos hasta la altura de la barbilla",
+        "Codos ligeramente doblados"
+      ],
+      "foto": true
+    },
+    {
+      "id": "flexiones-inclinadas",
+      "nombre": "Flexiones con manos elevadas",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Manos en un banco, una mesa o una pared",
+        "Más alto = más fácil"
+      ],
+      "foto": true
+    },
+    {
+      "id": "flexiones-declinadas",
+      "nombre": "Flexiones con pies elevados",
+      "patron": "empuje_h",
+      "musculo": "pecho",
+      "secundarios": [
+        "hombro_ant",
+        "triceps"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Pies en una silla o un escalón",
+        "Cuerpo recto, sin hundir la cadera"
+      ],
+      "foto": true
+    },
+    {
+      "id": "flexiones-diamante",
+      "nombre": "Flexiones diamante",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [
+        "pecho"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Manos juntas formando un rombo bajo el pecho",
+        "Codos pegados al cuerpo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "fondos-asistidos",
+      "nombre": "Fondos en máquina asistida",
+      "patron": "empuje_v_alt",
+      "musculo": "pecho",
+      "secundarios": [
+        "triceps"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "asistido",
+      "claves": [
+        "Más contrapeso = más ayuda",
+        "Baja hasta que los codos formen un ángulo recto"
+      ],
+      "foto": true
+    },
+    {
+      "id": "pullover-mancuerna",
+      "nombre": "Pullover con mancuerna",
+      "patron": "pecho_aisl",
+      "musculo": "pecho",
+      "secundarios": [
+        "dorsal"
+      ],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Espalda alta apoyada en el banco",
+        "Baja la mancuerna por detrás de la cabeza con los brazos casi rectos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-banca-cerrado",
+      "nombre": "Press de banca con agarre cerrado",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [
+        "pecho"
+      ],
+      "material": [
+        "barra",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Manos a la anchura de los hombros",
+        "Codos pegados al bajar"
+      ],
+      "foto": true
+    },
+    {
+      "id": "dominadas-supinas",
+      "nombre": "Dominadas con agarre supino",
+      "patron": "tiron_v",
+      "musculo": "dorsal",
+      "secundarios": [
+        "biceps"
+      ],
+      "material": [
+        "barra_dominadas"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Palmas mirando hacia ti",
+        "Sube hasta pasar la barbilla de la barra"
+      ],
+      "foto": true
+    },
+    {
+      "id": "dominadas-asistidas",
+      "nombre": "Dominadas en máquina asistida",
+      "patron": "tiron_v",
+      "musculo": "dorsal",
+      "secundarios": [
+        "biceps"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "asistido",
+      "claves": [
+        "Más contrapeso = más ayuda",
+        "Baja del todo, despacio"
+      ],
+      "foto": true
+    },
+    {
+      "id": "jalon-estrecho",
+      "nombre": "Jalón con agarre estrecho",
+      "patron": "tiron_v",
+      "musculo": "dorsal",
+      "secundarios": [
+        "biceps"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Agarre en V o estrecho",
+        "Lleva el agarre al pecho con los codos pegados"
+      ],
+      "foto": true
+    },
+    {
+      "id": "pullover-polea",
+      "nombre": "Pullover en polea con brazos rectos",
+      "patron": "dorsal_aisl",
+      "musculo": "dorsal",
+      "secundarios": [],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Brazos casi rectos todo el tiempo",
+        "Baja la barra hasta los muslos en arco"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-maquina",
+      "nombre": "Remo en máquina con apoyo de pecho",
+      "patron": "tiron_h",
+      "musculo": "espalda_alta",
+      "secundarios": [
+        "dorsal",
+        "biceps"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Pecho pegado al apoyo",
+        "Tira con los codos hacia atrás"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-t",
+      "nombre": "Remo en barra T",
+      "patron": "tiron_h",
+      "musculo": "espalda_alta",
+      "secundarios": [
+        "dorsal",
+        "biceps"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Espalda recta e inclinada",
+        "Lleva el agarre hacia el pecho"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-pendlay",
+      "nombre": "Remo Pendlay",
+      "patron": "tiron_h",
+      "musculo": "espalda_alta",
+      "secundarios": [
+        "dorsal",
+        "lumbar"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Tronco paralelo al suelo",
+        "La barra vuelve al suelo en cada repetición"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-inclinado-mancuerna",
+      "nombre": "Remo con mancuernas en banco inclinado",
+      "patron": "tiron_h",
+      "musculo": "espalda_alta",
+      "secundarios": [
+        "dorsal",
+        "hombro_post"
+      ],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Pecho apoyado en el banco inclinado",
+        "Junta las escápulas arriba"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-polea-una-mano",
+      "nombre": "Remo en polea a una mano",
+      "patron": "tiron_h",
+      "musculo": "dorsal",
+      "secundarios": [
+        "biceps"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Gira un poco el tronco al estirar",
+        "Lleva el codo atrás pegado al cuerpo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-banda",
+      "nombre": "Remo con banda elástica",
+      "patron": "tiron_h",
+      "musculo": "espalda_alta",
+      "secundarios": [
+        "biceps"
+      ],
+      "material": [
+        "banda"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Ata la banda a algo firme a la altura del pecho",
+        "Tira hasta juntar las escápulas"
+      ]
+    },
+    {
+      "id": "face-pull",
+      "nombre": "Face pull en polea",
+      "patron": "hombro_post",
+      "musculo": "hombro_post",
+      "secundarios": [
+        "espalda_alta",
+        "trapecio"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Cuerda a la altura de la cara",
+        "Separa las manos al tirar, codos altos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "encogimientos-barra",
+      "nombre": "Encogimientos con barra",
+      "patron": "trapecio",
+      "musculo": "trapecio",
+      "secundarios": [],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Sube los hombros hacia las orejas",
+        "Sin girarlos, solo arriba y abajo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "encogimientos-mancuerna",
+      "nombre": "Encogimientos con mancuernas",
+      "patron": "trapecio",
+      "musculo": "trapecio",
+      "secundarios": [],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Brazos estirados a los lados",
+        "Aguanta arriba un segundo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "peso-muerto",
+      "nombre": "Peso muerto convencional",
+      "patron": "bisagra",
+      "musculo": "isquios",
+      "secundarios": [
+        "gluteo",
+        "lumbar",
+        "espalda_alta",
+        "cuadriceps"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Barra pegada a las espinillas, espalda neutra",
+        "Empuja el suelo con las piernas y extiende la cadera"
+      ],
+      "foto": true
+    },
+    {
+      "id": "hiperextensiones",
+      "nombre": "Hiperextensiones",
+      "patron": "lumbar",
+      "musculo": "lumbar",
+      "secundarios": [
+        "gluteo",
+        "isquios"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Cadera apoyada en el borde del soporte",
+        "Sube hasta alinear el cuerpo, sin arquear de más"
+      ],
+      "foto": true
+    },
+    {
+      "id": "superman",
+      "nombre": "Superman en el suelo",
+      "patron": "lumbar",
+      "musculo": "lumbar",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Boca abajo, levanta brazos y piernas a la vez",
+        "Aguanta un segundo arriba"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-hombro-maquina",
+      "nombre": "Press de hombros en máquina",
+      "patron": "empuje_v",
+      "musculo": "hombro_ant",
+      "secundarios": [
+        "triceps",
+        "hombro_lat"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Asas a la altura de las orejas al empezar",
+        "Espalda pegada al respaldo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-arnold",
+      "nombre": "Press Arnold",
+      "patron": "empuje_v",
+      "musculo": "hombro_ant",
+      "secundarios": [
+        "hombro_lat",
+        "triceps"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Empieza con las palmas mirándote",
+        "Gira las muñecas mientras subes"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-militar-multipower",
+      "nombre": "Press militar en multipower",
+      "patron": "empuje_v",
+      "musculo": "hombro_ant",
+      "secundarios": [
+        "triceps"
+      ],
+      "material": [
+        "multipower",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Banco vertical bajo la barra",
+        "Baja la barra a la altura de la barbilla"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-hombro-kettlebell",
+      "nombre": "Press de hombro con kettlebell",
+      "patron": "empuje_v",
+      "musculo": "hombro_ant",
+      "secundarios": [
+        "triceps"
+      ],
+      "material": [
+        "kettlebell"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Kettlebell apoyada en el antebrazo",
+        "Sube con el abdomen apretado"
+      ],
+      "foto": true
+    },
+    {
+      "id": "elevaciones-laterales-polea",
+      "nombre": "Elevación lateral en polea",
+      "patron": "hombro_lat",
+      "musculo": "hombro_lat",
+      "secundarios": [],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Polea baja, por delante del cuerpo",
+        "Sube hasta la altura del hombro"
+      ],
+      "foto": true
+    },
+    {
+      "id": "elevaciones-laterales-maquina",
+      "nombre": "Elevaciones laterales en máquina",
+      "patron": "hombro_lat",
+      "musculo": "hombro_lat",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Hombros alineados con el eje de la máquina",
+        "Sube con los codos, sin encoger los hombros"
+      ]
+    },
+    {
+      "id": "elevaciones-laterales-banda",
+      "nombre": "Elevaciones laterales con banda",
+      "patron": "hombro_lat",
+      "musculo": "hombro_lat",
+      "secundarios": [],
+      "material": [
+        "banda"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Pisa la banda con los pies",
+        "Sube despacio hasta la altura de los hombros"
+      ],
+      "foto": true
+    },
+    {
+      "id": "elevaciones-frontales",
+      "nombre": "Elevaciones frontales con mancuernas",
+      "patron": "hombro_ant",
+      "musculo": "hombro_ant",
+      "secundarios": [],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Sube los brazos por delante hasta la altura de los ojos",
+        "Sin balancear el cuerpo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "pajaros-maquina",
+      "nombre": "Pájaros en máquina",
+      "patron": "hombro_post",
+      "musculo": "hombro_post",
+      "secundarios": [
+        "espalda_alta"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Pecho contra el respaldo",
+        "Abre los brazos hacia atrás con los codos casi rectos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "remo-menton",
+      "nombre": "Remo al mentón con barra",
+      "patron": "hombro_lat",
+      "musculo": "hombro_lat",
+      "secundarios": [
+        "trapecio"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Agarre algo más abierto que los hombros",
+        "Sube los codos hasta la altura de los hombros, no más"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-mancuerna",
+      "nombre": "Curl de bíceps con mancuernas",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [
+        "antebrazo"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Gira la palma hacia arriba al subir",
+        "Codos quietos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-inclinado",
+      "nombre": "Curl en banco inclinado",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Brazos colgando por detrás del cuerpo",
+        "Sube sin adelantar los codos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-predicador-maquina",
+      "nombre": "Curl en máquina predicador",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Brazos bien apoyados en el cojín",
+        "Baja casi hasta estirar del todo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-scott-barra",
+      "nombre": "Curl en banco Scott con barra Z",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [],
+      "material": [
+        "barra",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Axilas pegadas al borde del banco",
+        "Controla la bajada"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-polea",
+      "nombre": "Curl en polea",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [
+        "antebrazo"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Polea baja con barra o cuerda",
+        "Codos pegados a los costados"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-concentrado",
+      "nombre": "Curl concentrado",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Sentado, codo apoyado en el muslo",
+        "Sube despacio y aprieta arriba"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-barra-z",
+      "nombre": "Curl con barra Z",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [
+        "antebrazo"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Agarre en la parte inclinada de la barra",
+        "Sin balancear la espalda"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-banda",
+      "nombre": "Curl con banda elástica",
+      "patron": "biceps",
+      "musculo": "biceps",
+      "secundarios": [],
+      "material": [
+        "banda"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Pisa la banda con los dos pies",
+        "Codos fijos a los lados"
+      ]
+    },
+    {
+      "id": "extension-triceps-cuerda",
+      "nombre": "Extensión de tríceps con cuerda",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Separa las puntas de la cuerda abajo",
+        "Codos quietos junto al cuerpo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "extension-triceps-cabeza-polea",
+      "nombre": "Extensión de tríceps sobre la cabeza en polea",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "De espaldas a la polea, cuerda detrás de la cabeza",
+        "Estira los brazos hacia delante y arriba"
+      ],
+      "foto": true
+    },
+    {
+      "id": "extension-triceps-mancuerna",
+      "nombre": "Extensión de tríceps con mancuerna tras la nuca",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Sujeta la mancuerna con las dos manos",
+        "Codos apuntando al techo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "patada-triceps",
+      "nombre": "Patada de tríceps",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Tronco inclinado, brazo pegado al costado",
+        "Estira el codo del todo atrás"
+      ],
+      "foto": true
+    },
+    {
+      "id": "press-frances-barra",
+      "nombre": "Press francés con barra Z",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [],
+      "material": [
+        "barra",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Baja la barra hacia la frente",
+        "Mueve solo los codos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "fondos-triceps-maquina",
+      "nombre": "Fondos de tríceps en máquina",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [
+        "pecho"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Tronco recto",
+        "Empuja hasta estirar los brazos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "extension-triceps-banda",
+      "nombre": "Extensión de tríceps con banda",
+      "patron": "triceps",
+      "musculo": "triceps",
+      "secundarios": [],
+      "material": [
+        "banda"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Banda sujeta arriba (por ejemplo, en una puerta)",
+        "Estira los brazos hacia abajo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-muneca",
+      "nombre": "Curl de muñeca con barra",
+      "patron": "antebrazo",
+      "musculo": "antebrazo",
+      "secundarios": [],
+      "material": [
+        "barra",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Antebrazos apoyados en los muslos",
+        "Mueve solo la muñeca"
+      ],
+      "foto": true
+    },
+    {
+      "id": "paseo-granjero",
+      "nombre": "Paseo del granjero",
+      "patron": "antebrazo",
+      "musculo": "antebrazo",
+      "secundarios": [
+        "trapecio",
+        "abdomen"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "tiempo",
+      "claves": [
+        "Mancuernas pesadas a los lados",
+        "Camina erguido con pasos cortos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "sentadilla-frontal",
+      "nombre": "Sentadilla frontal",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo",
+        "abdomen"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Barra apoyada delante de los hombros, codos altos",
+        "Tronco muy erguido"
+      ],
+      "foto": true
+    },
+    {
+      "id": "sentadilla-multipower",
+      "nombre": "Sentadilla en multipower",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "multipower"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Pies un poco adelantados respecto a la barra",
+        "Baja hasta el paralelo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "sentadilla-hack",
+      "nombre": "Sentadilla hack en máquina",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Espalda pegada al respaldo",
+        "Baja profundo sin despegar los talones"
+      ],
+      "foto": true
+    },
+    {
+      "id": "sentadilla-pendulo",
+      "nombre": "Sentadilla péndulo",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Hombros bajo las almohadillas",
+        "Recorrido completo y controlado"
+      ],
+      "foto": true
+    },
+    {
+      "id": "sentadilla-kettlebell",
+      "nombre": "Sentadilla goblet con kettlebell",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "kettlebell"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Kettlebell pegada al pecho",
+        "Rodillas hacia fuera al bajar"
+      ],
+      "foto": true
+    },
+    {
+      "id": "sentadilla-peso-corporal",
+      "nombre": "Sentadilla con peso corporal",
+      "patron": "sentadilla",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Brazos al frente para equilibrarte",
+        "Baja como si te sentaras en una silla baja"
+      ],
+      "foto": true
+    },
+    {
+      "id": "bulgara-mancuerna",
+      "nombre": "Sentadilla búlgara con mancuernas",
+      "patron": "zancada",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Pie de atrás en el banco",
+        "Baja recto con una mancuerna en cada mano"
+      ],
+      "foto": true
+    },
+    {
+      "id": "zancadas-barra",
+      "nombre": "Zancadas con barra",
+      "patron": "zancada",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Barra sobre la espalda",
+        "Paso largo y tronco erguido"
+      ],
+      "foto": true
+    },
+    {
+      "id": "subidas-cajon",
+      "nombre": "Subidas al cajón con mancuernas",
+      "patron": "zancada",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "mancuerna",
+        "banco"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Sube empujando con la pierna de arriba",
+        "Baja despacio, sin dejarte caer"
+      ],
+      "foto": true
+    },
+    {
+      "id": "prensa-una-pierna",
+      "nombre": "Prensa a una pierna",
+      "patron": "cuad_aisl",
+      "musculo": "cuadriceps",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Pie en el centro de la plataforma",
+        "Haz todas las reps de una pierna y cambia"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-femoral-sentado",
+      "nombre": "Curl femoral sentado",
+      "patron": "isq_aisl",
+      "musculo": "isquios",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Rodillas alineadas con el eje",
+        "Lleva los talones hacia abajo y atrás"
+      ],
+      "foto": true
+    },
+    {
+      "id": "curl-nordico",
+      "nombre": "Curl nórdico",
+      "patron": "isq_aisl",
+      "musculo": "isquios",
+      "secundarios": [],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Talones sujetos bajo un mueble o con ayuda",
+        "Déjate caer hacia delante lo más despacio que puedas"
+      ],
+      "foto": true
+    },
+    {
+      "id": "buenos-dias",
+      "nombre": "Buenos días con barra",
+      "patron": "bisagra",
+      "musculo": "isquios",
+      "secundarios": [
+        "lumbar",
+        "gluteo"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Barra sobre la espalda, rodillas un poco dobladas",
+        "Inclina el tronco llevando la cadera atrás"
+      ],
+      "foto": true
+    },
+    {
+      "id": "peso-muerto-sumo",
+      "nombre": "Peso muerto sumo",
+      "patron": "bisagra",
+      "musculo": "gluteo",
+      "secundarios": [
+        "isquios",
+        "aductores",
+        "cuadriceps"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Pies muy abiertos, manos por dentro de las rodillas",
+        "Pecho alto al subir"
+      ],
+      "foto": true
+    },
+    {
+      "id": "swing-kettlebell",
+      "nombre": "Swing con kettlebell",
+      "patron": "bisagra",
+      "musculo": "gluteo",
+      "secundarios": [
+        "isquios",
+        "lumbar"
+      ],
+      "material": [
+        "kettlebell"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "El impulso sale de la cadera, no de los brazos",
+        "Glúteos apretados arriba"
+      ],
+      "foto": true
+    },
+    {
+      "id": "hip-thrust-maquina",
+      "nombre": "Empuje de cadera en máquina",
+      "patron": "gluteo",
+      "musculo": "gluteo",
+      "secundarios": [
+        "isquios"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Almohadilla sobre la cadera",
+        "Sube hasta alinear tronco y muslos"
+      ],
+      "foto": true
+    },
+    {
+      "id": "puente-gluteo-barra",
+      "nombre": "Puente de glúteo con barra",
+      "patron": "gluteo",
+      "musculo": "gluteo",
+      "secundarios": [
+        "isquios"
+      ],
+      "material": [
+        "barra"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Tumbado en el suelo, barra sobre la cadera",
+        "Empuja con los talones"
+      ],
+      "foto": true
+    },
+    {
+      "id": "patada-gluteo-polea",
+      "nombre": "Patada de glúteo en polea",
+      "patron": "gluteo",
+      "musculo": "gluteo",
+      "secundarios": [
+        "isquios"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Tobillera en la polea baja",
+        "Lleva la pierna atrás sin arquear la espalda"
+      ],
+      "foto": true
+    },
+    {
+      "id": "abduccion-maquina",
+      "nombre": "Abducción de cadera en máquina",
+      "patron": "abductores",
+      "musculo": "abductores",
+      "secundarios": [
+        "gluteo"
+      ],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Abre las piernas hacia fuera",
+        "Vuelve despacio sin dejar caer el peso"
+      ],
+      "foto": true
+    },
+    {
+      "id": "aduccion-maquina",
+      "nombre": "Aducción de cadera en máquina",
+      "patron": "aductores",
+      "musculo": "aductores",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Junta las piernas apretando",
+        "Controla la apertura"
+      ],
+      "foto": true
+    },
+    {
+      "id": "gemelos-sentado",
+      "nombre": "Elevación de gemelos sentado",
+      "patron": "gemelo",
+      "musculo": "gemelo",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Almohadilla sobre los muslos",
+        "Recorrido completo, abajo y arriba"
+      ],
+      "foto": true
+    },
+    {
+      "id": "gemelos-prensa",
+      "nombre": "Gemelos en prensa",
+      "patron": "gemelo",
+      "musculo": "gemelo",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Solo las puntas en el borde de la plataforma",
+        "Rodillas casi rectas"
+      ],
+      "foto": true
+    },
+    {
+      "id": "gemelos-mancuerna",
+      "nombre": "Elevación de gemelos con mancuernas",
+      "patron": "gemelo",
+      "musculo": "gemelo",
+      "secundarios": [],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "De pie en un escalón con una mancuerna en cada mano",
+        "Aguanta arriba un segundo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "crunch-polea",
+      "nombre": "Crunch en polea",
+      "patron": "core",
+      "musculo": "abdomen",
+      "secundarios": [],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "De rodillas, cuerda junto a la cabeza",
+        "Enrolla el tronco hacia el suelo"
+      ],
+      "foto": true
+    },
+    {
+      "id": "crunch-maquina",
+      "nombre": "Crunch en máquina",
+      "patron": "core",
+      "musculo": "abdomen",
+      "secundarios": [],
+      "material": [
+        "maquina"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "Enrolla la espalda, no tires con los brazos",
+        "Vuelve despacio"
+      ],
+      "foto": true
+    },
+    {
+      "id": "crunch",
+      "nombre": "Crunch abdominal",
+      "patron": "core",
+      "musculo": "abdomen",
+      "secundarios": [],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Despega solo los hombros del suelo",
+        "Sin tirar del cuello"
+      ],
+      "foto": true
+    },
+    {
+      "id": "plancha-lateral",
+      "nombre": "Plancha lateral",
+      "patron": "core",
+      "musculo": "oblicuos",
+      "secundarios": [
+        "abdomen"
+      ],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "tiempo",
+      "claves": [
+        "Codo bajo el hombro",
+        "Cadera alta, cuerpo en línea"
+      ],
+      "foto": true
+    },
+    {
+      "id": "giros-rusos",
+      "nombre": "Giros rusos con mancuerna",
+      "patron": "core",
+      "musculo": "oblicuos",
+      "secundarios": [
+        "abdomen"
+      ],
+      "material": [
+        "mancuerna"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Sentado con el tronco inclinado atrás",
+        "Gira llevando la mancuerna de lado a lado"
+      ],
+      "foto": true
+    },
+    {
+      "id": "pallof",
+      "nombre": "Press Pallof en polea",
+      "patron": "core",
+      "musculo": "oblicuos",
+      "secundarios": [
+        "abdomen"
+      ],
+      "material": [
+        "polea"
+      ],
+      "tipo": "peso_reps",
+      "claves": [
+        "De lado a la polea",
+        "Estira los brazos sin dejar que te gire"
+      ],
+      "foto": true
+    },
+    {
+      "id": "rodillas-paralelas",
+      "nombre": "Elevación de rodillas en paralelas",
+      "patron": "core",
+      "musculo": "abdomen",
+      "secundarios": [],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Apoyado en los antebrazos",
+        "Sube las rodillas al pecho sin balancearte"
+      ],
+      "foto": true
+    },
+    {
+      "id": "bicho-muerto",
+      "nombre": "Bicho muerto",
+      "patron": "core",
+      "musculo": "abdomen",
+      "secundarios": [],
+      "material": [
+        "sin_material"
+      ],
+      "tipo": "reps",
+      "claves": [
+        "Zona lumbar pegada al suelo",
+        "Estira brazo y pierna contrarios a la vez"
+      ],
+      "foto": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+/* Tokens de diseño de Forja: negro, gris y dorado. El oscuro es el tema por defecto.
+   Valores de replica/design/tokens.dark.json (y tokens.json para el claro, solo con data-theme="light").
+   Los componentes usan SOLO estas variables: nunca un hex suelto. */
+
+:root {
+  color-scheme: dark;
+
+  /* Color: tema oscuro (principal) */
+  --c-bg: #0a0a0b;
+  --c-surface: #161618;
+  --c-surface-2: #232326;
+  --c-border: #2f2f33;
+  --c-border-input: #77777e;
+  --c-text: #f3efe6;
+  --c-text-muted: #a8a49b;
+  --c-accent: #d4af37;
+  --c-accent-2: #f0d27a;
+  --c-on-accent: #14110a;
+  --c-accent-soft: #2b2413;
+  --c-danger: #ff6b61;
+  --c-on-danger: #14110a;
+  --c-success: #5fcf8f;
+  --c-success-soft: #13281c;
+  --c-warning: #f0a04b;
+  --c-record: #f0d27a;
+  --c-record-soft: #2e2610;
+  --c-foto-fondo: #ffffff; /* las fotos de ejercicios vienen sobre blanco */
+
+  /* Efectos (derivados de los colores de arriba) */
+  --grad-accent: linear-gradient(135deg, var(--c-accent-2) 0%, var(--c-accent) 55%, #b08a1e 100%);
+  --grad-fondo: radial-gradient(120% 60% at 50% -10%, #1c1810 0%, var(--c-bg) 60%);
+  --brillo-accent: 0 6px 20px rgba(212, 175, 55, .22);
+  --borde-card: 1px solid var(--c-border);
+  --overlay: rgba(0, 0, 0, .6);
+
+  /* Tipografía */
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --t-xs: 500 12px/16px var(--font-sans);
+  --t-sm: 400 14px/20px var(--font-sans);
+  --t-base: 400 16px/22px var(--font-sans);
+  --t-lg: 600 20px/26px var(--font-sans);
+  --t-xl: 700 28px/34px var(--font-sans);
+  --t-display: 800 34px/40px var(--font-sans);
+  --t-timer: 700 48px/52px var(--font-sans);
+
+  /* Espaciado (base 4) */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px;
+
+  /* Radios, tamaños, sombras, movimiento */
+  --r-sm: 10px; --r-md: 14px; --r-lg: 20px; --r-pill: 999px;
+  --touch: 44px; --row-set: 48px; --tabbar-h: 60px; --header-h: 52px; --content-max: 600px;
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, .03) inset, 0 8px 24px rgba(0, 0, 0, .35);
+  --shadow-pop: 0 16px 40px rgba(0, 0, 0, .7);
+  --m-fast: 120ms; --m-base: 220ms; --ease: cubic-bezier(.2,.8,.2,1);
+  --focus-ring: 0 0 0 2px var(--c-bg), 0 0 0 4px var(--c-accent);
+}
+
+/* Tema claro (opcional, solo si se fuerza con data-theme="light") */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --c-bg: #f4f2ee;
+  --c-surface: #ffffff;
+  --c-surface-2: #ebe8e2;
+  --c-border: #d8d4cc;
+  --c-border-input: #85817a;
+  --c-text: #141310;
+  --c-text-muted: #5d5a54;
+  --c-accent: #7f600c;
+  --c-accent-2: #b8901f;
+  --c-on-accent: #ffffff;
+  --c-accent-soft: #f5edd6;
+  --c-danger: #c3261b;
+  --c-on-danger: #ffffff;
+  --c-success: #1b7a43;
+  --c-success-soft: #e3f4ea;
+  --c-warning: #975f00;
+  --c-record: #7a5000;
+  --c-record-soft: #fff1cf;
+  --grad-accent: linear-gradient(135deg, var(--c-accent-2) 0%, var(--c-accent) 100%);
+  --grad-fondo: none;
+  --brillo-accent: 0 6px 16px rgba(127, 96, 12, .2);
+  --overlay: rgba(0, 0, 0, .4);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, .06);
+  --shadow-pop: 0 12px 32px rgba(0, 0, 0, .18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --m-fast: 0ms; --m-base: 0ms; }
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "plantillas": [
+    {
+      "id": "torso-pierna-4",
+      "nombre": "Torso / Pierna (4 días)",
+      "descripcion": "Cuatro días por semana, dos de torso y dos de pierna. Para gimnasio.",
+      "dias": [
+        {"nombre": "Torso A", "ejercicios": [
+          {"ejercicioId": "press-banca-barra", "series": 3, "repMin": 6, "repMax": 10, "descansoS": 150},
+          {"ejercicioId": "remo-barra", "series": 3, "repMin": 6, "repMax": 10, "descansoS": 150},
+          {"ejercicioId": "press-militar-barra", "series": 3, "repMin": 8, "repMax": 12, "descansoS": 120},
+          {"ejercicioId": "jalon-pecho", "series": 3, "repMin": 8, "repMax": 12, "descansoS": 120},
+          {"ejercicioId": "curl-barra", "series": 2, "repMin": 10, "repMax": 15, "descansoS": 90},
+          {"ejercicioId": "extension-triceps-polea", "series": 2, "repMin": 10, "repMax": 15, "descansoS": 90}
+        ]},
+        {"nombre": "Pierna A", "ejercicios": [
+          {"ejercicioId": "sentadilla-barra", "series": 3, "repMin": 5, "repMax": 8, "descansoS": 180},
+          {"ejercicioId": "peso-muerto-rumano", "series": 3, "repMin": 8, "repMax": 10, "descansoS": 150},
+          {"ejercicioId": "extension-cuadriceps", "series": 3, "repMin": 10, "repMax": 15, "descansoS": 90},
+          {"ejercicioId": "curl-femoral", "series": 3, "repMin": 10, "repMax": 15, "descansoS": 90},
+          {"ejercicioId": "elevacion-gemelos", "series": 3, "repMin": 10, "repMax": 15, "descansoS": 60},
+          {"ejercicioId": "plancha", "series": 3, "repMin": 30, "repMax": 60, "descansoS": 60}
+        ]},
+        {"nombre": "Torso B", "ejercicios": [
+          {"ejercicioId": "press-inclinado-mancuerna", "series": 3, "repMin": 8, "repMax": 12, "descansoS": 120},
+          {"ejercicioId": "dominadas", "series": 3, "repMin": 5, "repMax": 10, "descansoS": 150},
+          {"ejercicioId": "remo-polea-baja", "series": 3, "repMin": 8, "repMax": 12, "descansoS": 120},
+          {"ejercicioId": "elevaciones-laterales", "series": 3, "repMin": 12, "repMax": 20, "descansoS": 60},
+          {"ejercicioId": "aperturas-polea", "series": 2, "repMin": 12, "repMax": 15, "descansoS": 60},
+          {"ejercicioId": "curl-martillo", "series": 2, "repMin": 10, "repMax": 15, "descansoS": 90}
+        ]},
+        {"nombre": "Pierna B", "ejercicios": [
+          {"ejercicioId": "prensa", "series": 3, "repMin": 8, "repMax": 12, "descansoS": 150},
+          {"ejercicioId": "hip-thrust", "series": 3, "repMin": 8, "repMax": 12, "descansoS": 120},
+          {"ejercicioId": "zancadas-mancuerna", "series": 2, "repMin": 8, "repMax": 12, "descansoS": 120},
+          {"ejercicioId": "curl-femoral", "series": 3, "repMin": 10, "repMax": 15, "descansoS": 90},
+          {"ejercicioId": "elevacion-gemelos", "series": 3, "repMin": 10, "repMax": 15, "descansoS": 60},
+          {"ejercicioId": "elevacion-piernas", "series": 3, "repMin": 8, "repMax": 15, "descansoS": 60}
+        ]}
+      ]
+    }
+  ]
+}
